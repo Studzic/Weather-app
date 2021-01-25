@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+#weatherDashboard{
+  color: #98e9b3;
+}
+
+.jumbotron {
+ background-image: url('https://waterview.ca/wp-content/uploads/2017/05/Screen-Shot-2017-06-05-at-10.47.41-AM.png');
+  background-size: cover;
+ 
+  height: 100vh;
+  margin-top: 1em;
+
+ 
+}
+#forecast{
+  float:right;
+}
+
+#current-day{
+    padding-left: 1em;
+    padding-top: 80px;
+   
+}
+
+
+#search{
+    margin-top: 2em;
+}
+#searchForCity{
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+#presetCities {
+  text-align: center;
+}
+
+
+#cardsForecast div {
+  padding: 5px;
+  background-color: #98e9b3;
+  color: rgb(10, 10, 10);
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+}
